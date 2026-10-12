@@ -1,0 +1,1 @@
+a.extend(["Anirudh","Code and Debug",100])

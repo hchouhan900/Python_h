@@ -1,0 +1,18 @@
+"""
+Python program to find common elements in three lists using sets.
+"""
+
+lst1 = [3, 6, 7, 5, 55, 3, 1, 2, 2, "Python", "Anirudh"]
+lst2 = [7, 8, 5, 6, 1, "Anirudh"]
+lst3 = [1, 1, 1, 2, 3, 4, 5]
+
+print(set(lst1) & set(lst2) & set(lst3))  # direct method
+
+# set1 = set(lst1)
+# set2 = set(lst2)
+# set3 = set(lst3)
+
+# x = set1.intersection(set2)
+# result = x.intersection(set3)
+
+# print(result)

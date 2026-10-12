@@ -1,0 +1,15 @@
+my_string = "   hello world   "
+
+# c = my_string.count("z")
+# print(c)
+# c = my_string.startswith("h")
+# print(c)
+# c = my_string.index("o")
+# print(c)
+# c = my_string.find("z")
+# print(c)
+# c = my_string.replace("l","z")
+# print(c)
+c = my_string.strip()
+print(my_string)
+print(c)
